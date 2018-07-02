@@ -1,8 +1,8 @@
-# Communist Mutants from Space
-This was task from the CodeBerry programming school. Copy a Wikipeda Article.
+# Wedding Side
+This a was task from the CodeBerry programming school. I had to copy a Wikipedia Article.
 
 ## Built With
-- JSBin
+- jsbin
 - HTML
 - CSS
 
