@@ -1,0 +1,266 @@
+/*ccs reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,ol,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of the ccs reset*/
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+	width:100%;
+	position:relative;
+}
+
+/* Navigation Bar*/
+
+.navigation-bar {
+	padding: 1.5rem;
+	font-size:.875rem;
+	line-height:1.125rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	width:10%;
+	height:200vh;
+	float:left;
+}
+.navigation-bar a{
+	display: block;
+	
+	
+}
+a{
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+.banner img{
+	width:100%;
+	padding-bottom:1rem;
+}
+.navigational-subtitle {
+	padding-top:1.25rem;
+}
+.navigational-subtitle::after {
+	content: "";
+	display: block;
+	height: .0975rem;
+	width: 95%;
+	margin: auto auto;
+	margin-bottom: 1rem;
+	background-color:rgba(148,148,148,1);
+}
+
+/*Info panel*/
+
+.cover-art {
+	float:right;
+	padding:1rem;
+	border:1px solid;
+	text-align:center;
+	clear:right;
+	font-size:.9rem;
+	margin-left:.3rem;
+}
+
+.cover-art img{
+	width:90%;
+}
+
+
+.cover-art h5 {
+	font-size:1rem;
+	font-style:italic;
+	font-weight:900;
+}
+
+figcaption {
+	font-size:.8rem;
+	line-height:.8rem;
+}
+
+table {
+	text-align:left;
+}
+tr td:first-child {
+	padding-right:4rem;
+	font-weight:900;
+}
+
+/*Content*/
+
+.content {
+	position:absolute;
+	left:11%;
+	width:80%;
+	margin:2rem 2rem;
+	line-height:1.5rem;
+
+}
+main {
+	border-left:1px solid;
+	border-bottom:.2px solid;
+	border-color:rgba(1,192,214,1);
+	padding-bottom:2rem;
+	padding-left:2rem;
+}
+.content-main-title {
+	font-size:2rem;
+	font-style:italic;
+	line-height:normal;
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+.content-main-title::after {
+	content: "";
+	display: block;
+	height: .0975rem;
+	width: 100%;
+	margin: auto auto;
+	margin-bottom: 1rem;
+	background-color: #444349;
+}
+.header {
+	padding-bottom:2rem;
+}
+sup {
+	position: relative; 
+	top: -0.5em; 
+	font-size: 70%; 
+}
+
+.content-list {
+	width:150px;
+	border:1px solid;
+	
+}
+.content-list h5{
+	text-align:center;
+	margin-top:.5rem;
+	font-weight:900;
+}
+.content-list ul{
+	padding-left:.5rem;
+	margin-top:0;
+}
+h2 {
+	font-size:1.3rem;
+	padding-top:1rem;
+	line-height:normal;
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+
+h2::after {
+	content: "";
+	display: block;
+	height: .0975rem;
+	width: 100%;
+	margin-bottom: 1rem;
+	background-color: #444349;
+	text-align:left;
+}
+
+#story::after, #gameplay::after {
+	content: "";
+	display: block;
+	height: .0975rem;
+	width: 70%;
+	margin-bottom: 1rem;
+	background-color: #444349;
+	text-align:left;
+}
+
+
+.gameplay {
+	border: 1px solid;
+	width:200px;
+	padding:.3rem;
+	font-size:13.5px;
+	line-height:18px;
+	float:left;
+	margin-right:1rem;
+	margin-bottom:2rem;
+}
+.gameplay img {
+	width:100%
+}
+h4 {
+	font-size:1.2rem;
+	font-weight:900;
+	padding-top:1rem;
+	padding-bottom:1.5rem;
+}
+#categories {
+	border:1px solid;
+	padding:.8rem;
+}
+.categories {
+	border-right:1px solid;
+	border-color:black;
+	padding-right:.5rem;
+}
+
+#external-links {
+	list-style-type: circle;
+}
+ol {
+	list-style-type: decimal;
+	margin-left:2rem;
+}
+/*Footer*/
+footer{
+	margin-top:2.3rem;
+	margin-left:1.5rem;
+	font-size:.7rem;
+}
+small {
+	display:block;
+	padding-top:1rem;
+	line-height:1.1rem;
+}
+#footer-places a{
+	padding-right:.5rem;
+}
