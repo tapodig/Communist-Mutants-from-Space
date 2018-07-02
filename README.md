@@ -1,4 +1,4 @@
-# Wedding Side
+# Communist Mutants from Space
 This a was task from the CodeBerry programming school. I had to copy a Wikipedia Article.
 
 ## Built With
